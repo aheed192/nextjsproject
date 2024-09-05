@@ -25,7 +25,7 @@ export default function Page() {
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
-            , brought to you by Vercl.
+            , brought to you by Vercel.
           </p>
           <Link
             href="/login"
@@ -35,7 +35,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          Add Hero Images Here
+          {/* Add Hero Images Here */}
           <Image
         src="/hero-desktop.png"
         width={1000}
